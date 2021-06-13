@@ -5,10 +5,9 @@
       v-model="newTaskTitle"
       @click:append="addTask"
       @keyup.enter="addTask"
-      class="pa-5"
+      class="pa-5 rounded-xl"
       outlined
       label="Add Task"
-      rounded
       append-icon="mdi-plus"
       hide-details
       clearable
